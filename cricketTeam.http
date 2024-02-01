@@ -1,0 +1,32 @@
+GET https://jayasaivardhandttqpnjscpxtwms.drops.nxtwave.tech/players/
+
+###
+
+POST https://jayasaivardhandttqpnjscpxtwms.drops.nxtwave.tech/players/
+Content-Type : application/json
+
+{
+    "playerName": "Vishal",
+    "jerseyNumber": 17,
+    "role": "Bowler"
+}
+
+###
+
+GET https://jayasaivardhandttqpnjscpxtwms.drops.nxtwave.tech/players/playerId/
+###
+
+PUT https://jayasaivardhandttqpnjscpxtwms.drops.nxtwave.tech/players/:playerId/
+Content-Type : application/json 
+
+{
+    "playerName" : "Maneesh",
+    "jerseyNumber": 54,
+    "role": "All-rounder"
+}
+
+###
+
+
+DELETE https://jayasaivardhandttqpnjscpxtwms.drops.nxtwave.tech/players/:playerId/
+
